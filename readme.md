@@ -8,7 +8,7 @@
 
 > `js template literals` + `node vm` = `profit`
 
-**Captain obvious alert**: 🔐 Only for trusted environments.
+**Captain obvious alert**: 🚨 Sanitaze all function input.
 
 ### Installation
 
