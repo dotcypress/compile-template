@@ -6,17 +6,19 @@
 # compile-template
 > 📠 Micro templates for Node.js
 
-`js template literals + node vm = profit`
+> `js template literals` + `node vm` = `profit`
+
+**Capitan obvious alert**: 🔐 Only for trusted environments.
 
 ### Installation
-
-**Note**: `compile-template` requires Node `4.0.0` or later
 
 Install from NPM:
 
 ```js
 $ npm install compile-template --save
 ```
+
+**Note**: `compile-template` requires Node `4.0.0` or later
 
 ### Example
 
