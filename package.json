@@ -1,7 +1,7 @@
 {
   "name": "compile-template",
-  "version": "0.0.1",
-  "description": "Micro templates for Node.js",
+  "version": "0.1.0",
+  "description": "📠 Micro templates for Node.js",
   "author": "Vitaly Domnikov <dotcypress@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/dotcypress/compile-template#readme",
