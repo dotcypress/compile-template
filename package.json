@@ -1,6 +1,6 @@
 {
   "name": "compile-template",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "📠 Micro templates for Node.js",
   "author": "Vitaly Domnikov <dotcypress@gmail.com>",
   "license": "MIT",
