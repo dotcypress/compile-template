@@ -8,7 +8,7 @@
 
 > `js template literals` + `node vm` = `profit`
 
-**Captain obvious alert**: 🚨 The vm module is not a security mechanism. Do not use it to run untrusted code.
+**Captain obvious alert**: 🚨 The node vm module is not a security mechanism. Do not use untrusted code in templates.
 
 ### Installation
 

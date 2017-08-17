@@ -1,6 +1,6 @@
 /*eslint no-template-curly-in-string: "ignore"*/
 const test = require('ava')
-const compile = require('../')
+const compile = require('./')
 
 test('undefined template', (t) => t.throws(compile))
 
