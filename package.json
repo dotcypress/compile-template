@@ -1,6 +1,6 @@
 {
   "name": "compile-template",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "📠 Micro templates for Node.js",
   "author": "Vitaly Domnikov <dotcypress@gmail.com>",
   "license": "MIT",
@@ -25,12 +25,13 @@
     "node": ">=4.0.0"
   },
   "devDependencies": {
-    "ava": "^0.16.0",
-    "eslint": "^3.7.0",
-    "eslint-config-standard": "^6.0.0",
-    "eslint-plugin-ava": "^3.1.0",
-    "eslint-plugin-promise": "^3.0.0",
-    "eslint-plugin-standard": "^2.0.1",
-    "should": "^11.1.0"
+    "ava": "^0.22.0",
+    "eslint": "^4.4.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-ava": "^4.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
   }
 }

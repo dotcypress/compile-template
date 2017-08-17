@@ -8,7 +8,7 @@
 
 > `js template literals` + `node vm` = `profit`
 
-**Captain obvious alert**: 🚨 Sanitaze all function input.
+**Captain obvious alert**: 🚨 The vm module is not a security mechanism. Do not use it to run untrusted code.
 
 ### Installation
 
@@ -27,6 +27,8 @@ const compile = require('compile-template')
 
 const template = compile('foo=${41+value}')
 const string = template({value: 1})
-
 assert(string === 'foo=42')
+
+const template = compile('foo=${41+value}', {value: 1})
+assert(template() === 'foo=42')
 ```
