@@ -10,6 +10,11 @@ function compile (template, defaultContext, ops) {
   if (typeof template !== 'string') {
     throw new TypeError('Template must be a string')
   }
+
+  if (!template.includes('${')) {
+    return () => template
+  }
+
   const options = Object.assign({timeout: 500}, ops)
   const script = new vm.Script(escape(template))
   return (context) => {
