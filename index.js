@@ -16,7 +16,7 @@ function compile (template, defaultContext, ops) {
     try {
       return script.runInNewContext(Object.assign({}, defaultContext, context), options)
     } catch (err) {
-      throw new Error('Failed to compile template', err)
+      throw new Error('Failed to compile template', {cause: err})
     }
   }
 }
